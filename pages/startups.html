@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InvestCap</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/mainstyle.css" />
+    <style>
+      /* Centraliza a imagem e define o tamanho máximo */
+      .content-margin {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .footer-body {
+        margin-top: 30px;
+        padding-top: 30px;
+        background-color: #1c8787;
+        padding-bottom: 30px;
+      }
+
+      .footer-content ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .footer-content ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-content ul li a:hover {
+        color: #007bff;
+      }
+
+      /* Estilo para dispositivos móveis */
+      @media (max-width: 768px) {
+        .content-margin {
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        .footer-body {
+          text-align: center;
+        }
+
+        .footer-content {
+          margin-bottom: 20px;
+        }
+      }
+
+      /* Ajusta a largura do cartão de conteúdo */
+      .card {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1000px;
+      }
+
+      /* Ajusta a aparência do título */
+      .card-title {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+
+      .pequenotext {
+        border-radius: 15px;
+        background-color: #f4f4f4;
+        padding: 30px;
+      }
+
+      .pequenotext h1 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+      /* Garante que as imagens dentro do card ocupem 100% da largura */
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 25px;
+      }
+
+      /* Imagens no conteúdo também devem ser responsivas */
+      .pequenotext img {
+        width: 100%;
+        height: auto;
+        border-radius: 25px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header style="margin-bottom: 50px">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">InvestCap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sobrenós.html">Sobre Nos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item active" href="../pages/bitcoin.html"
+                      >Bitcoin</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/juros.html"
+                      >Juros Simples e Compostos</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../pages/empreendedorismo.html"
+                      >Empreendedorismo</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/investismentos.html"
+                      >Tipos de Investimento</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/startups.html"
+                      >Startups</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/empresas.html"
+                      >Empresas Grandes</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/ias.html"
+                      >Investimentos em IoT</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Procurar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div style="display: flex; justify-content: center">
+      <div class="card mb-3" style="border-radius: 50px; min-height: 50vh">
+        <div class="row g-0">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img
+              src="../img/startup1.jpg"
+              alt="Grandes Corporações"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="card-body">
+              <h2 class="card-title">O que é uma Startup?</h2>
+              <p class="card-text">
+                Startups são empresas inovadoras que buscam soluções escaláveis
+                e repetíveis para um mercado específico. Elas costumam focar em
+                tecnologias ou modelos de negócios disruptivos, com alto
+                potencial de crescimento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="pequenotext content-margin my-5">
+      <div class="col-12">
+        <h1 style="font-weight: bold; padding-bottom: 25px">
+          Startups e Empreendedorismo
+        </h1>
+        <img
+          src="../img/startup2.jpg"
+          alt="Investindo em Startups"
+          class="img-fluid"
+        />
+        <p style="padding-top: 15px">
+          Startups são empresas que nascem com a intenção de crescer
+          rapidamente, muitas vezes utilizando inovação tecnológica ou novas
+          abordagens para resolver problemas antigos. O empreendedorismo nas
+          startups envolve risco, mas também oportunidades de altos lucros.
+        </p>
+        <p>
+          O processo de criação de uma startup envolve identificar uma ideia
+          inovadora, validar essa ideia no mercado e buscar financiamento para
+          expandir rapidamente. Muitas startups começam pequenas, mas podem
+          crescer exponencialmente em um curto período de tempo.
+        </p>
+
+        <h2>Principais Tipos de Startups</h2>
+        <p>
+          Existem diferentes tipos de startups, dependendo do mercado, da
+          inovação e do modelo de negócio. Alguns dos tipos mais comuns incluem:
+        </p>
+        <ul>
+          <li>
+            <strong>Startups de Tecnologia</strong>: Focadas em soluções
+            inovadoras com base em tecnologia.
+          </li>
+          <li>
+            <strong>Startups de Saúde</strong>: Buscam inovações para melhorar
+            os cuidados com a saúde e bem-estar.
+          </li>
+          <li>
+            <strong>Startups de Finanças</strong>: Criam soluções financeiras
+            para atender a nichos de mercado ou melhorar o sistema financeiro
+            tradicional.
+          </li>
+          <li>
+            <strong>Startups Sociais</strong>: Focam em problemas sociais e
+            buscam soluções sustentáveis para impactar positivamente a
+            sociedade.
+          </li>
+        </ul>
+
+        <h2>Como as Startups Funcionam?</h2>
+        <p>
+          O modelo de negócios de uma startup é geralmente focado em
+          escalabilidade, ou seja, em crescer rapidamente sem aumentar
+          proporcionalmente os custos. Elas frequentemente buscam capital de
+          risco para financiar suas operações, e muitos investidores estão
+          dispostos a investir em startups com alto potencial de crescimento,
+          mesmo que haja riscos envolvidos.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer-body" style="margin-top: 100px">
+      <div class="container">
+        <div class="row footer-content">
+          <div class="col-md-4">
+            <h5>InvestCap</h5>
+            <p>
+              A plataforma de investimentos mais acessível do Brasil. Invista
+              com segurança, inovação e agilidade.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Links Rápidos</h5>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../pages/sobrenós.html">Sobre Nos</a></li>
+              <li>
+                <a href="../pages/empreendedorismo.html">Empreendedorismo</a>
+              </li>
+              <li><a href="../pages/ias.html">IoT</a></li>
+              <li><a href="../pages/bitcoin.html">Bitcoin</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Redes Sociais</h5>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

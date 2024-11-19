@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>investCap Investimentos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mainstyle.css" />
+    <style>
+      .content-margin {
+        margin: 0 5%;
+      }
+
+      .card {
+        margin-bottom: 20px;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .section-title {
+        text-align: center;
+        margin: 50px 0 20px;
+      }
+
+      .section-title hr {
+        width: 50%;
+        margin: 0 auto 10px;
+        border: 1px solid #000;
+      }
+
+      /* Responsividade para telas menores */
+      @media (max-width: 768px) {
+        .card {
+          margin-bottom: 20px;
+        }
+
+        .footer-content {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .navbar-nav {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header style="margin-bottom: 50px">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">InvestCap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sobrenós.html">Sobre Nós</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Categorias</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./pages/bitcoin.html"
+                      >Bitcoin</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item active" href="./pages/juros.html"
+                      >Juros Simples e Compostos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item active" href="./pages/empreendedorismo.html"
+                      >Empreendedorismo</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/investismentos.html"
+                      >Tipos de Investimento</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/startups.html"
+                      >Startups</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/ias.html"
+                      >Investimentos em IoT</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/empresas.html"
+                      >Empresas Grandes</a
+                    >
+                  </li>
+
+                </ul>
+              </li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Procurar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="content-margin my-5">
+      <h1 class="section-title font-weight-bold">Tipos de Investimentos</h1>
+      <hr />
+      <h3
+        class="text-center"
+        style="font-size: 18px; color: rgba(0, 0, 0, 0.637)"
+      >
+        Publicado dia 08/10/2024 às 13:30 horário de Brasília
+      </h3>
+
+      <p
+        class="text-center"
+        style="font-size: 16px; color: rgba(0, 0, 0, 0.637)"
+      >
+        Investir é uma forma de fazer o seu dinheiro trabalhar para você.
+        Descubra diferentes opções de investimentos que podem ser acessíveis e
+        vantajosas de acordo com seus objetivos financeiros e perfil de risco.
+      </p>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/cardações.jpg"
+              class="card-img-top img-fluid"
+              alt="Ações"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ações</h5>
+              <p class="card-text">
+                Invista em ações de empresas e potencialize seus ganhos. Compre
+                ações de grandes corporações ou startups, com risco maior, mas
+                também com potencial de retorno expressivo.
+              </p>
+              <a href="#" class="btn btn-primary">Confira Agora!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/cardjuros.webp"
+              class="card-img-top img-fluid"
+              alt="Juros Simples e Compostos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Juros Simples e Compostos</h5>
+              <p class="card-text">
+                Segurança e previsibilidade em seus investimentos. Os
+                investimentos em juros simples e compostos são ideais para quem
+                busca rendimentos estáveis e previsíveis.
+              </p>
+              <a href="./pages/juros.html" class="btn btn-primary"
+                >Confira Agora!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/cardinvest.jpg"
+              class="card-img-top img-fluid"
+              alt="Fundos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fundos de Investimento</h5>
+              <p class="card-text">
+                Diversificação e gestão profissional dos seus ativos. Os fundos
+                de investimento são ideais para quem deseja um portfólio
+                diversificado e gerido por especialistas.
+              </p>
+              <a href="./pages/investismentos.html" class="btn btn-primary"
+                >Confira Agora!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/carcripto.jpeg"
+              class="card-img-top img-fluid"
+              alt="Criptomoedas"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Criptomoedas</h5>
+              <p class="card-text">
+                Explore o mundo das criptomoedas e inove seu portfólio. As
+                criptos oferecem oportunidades de crescimento rápido, mas também
+                apresentam um risco significativo.
+              </p>
+              <a href="./pages/bitcoin.html" class="btn btn-primary"
+                >Confira Agora!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/cardia.jpg"
+              class="card-img-top img-fluid"
+              alt="Investimentos em IoT"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Investimentos em IoT</h5>
+              <p class="card-text">
+                A Internet das Coisas (IoT) está revolucionando a forma como as
+                empresas operam. Descubra como investir nesse mercado promissor.
+              </p>
+              <a href="./pages/ias.html" class="btn btn-primary">Confira Agora!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/caremprem.jpg"
+              class="card-img-top img-fluid"
+              alt="Investimentos em Energia Renovável"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Empreendedorismo</h5>
+              <p class="card-text">
+                Veja como o Empreendedorismo pode ajudar no nosso dia a dia e oferecer uma renda extra.
+              </p>
+              <a href="./pages/empreendedorismo.html" class="btn btn-primary">Confira Agora!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/google.jpg"
+              class="card-img-top img-fluid"
+              alt="Investimentos Imobiliários"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Empresas Grandes</h5>
+              <p class="card-text">
+                Atualmente empresas de grande porte estão surgindo em grande escala e de maneira rapida.
+              </p>
+              <a href="./pages/empresas.html" class="btn btn-primary">Confira Agora!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card">
+            <img
+              src="img/cardstrar.jpg"
+              class="card-img-top img-fluid"
+              alt="Investimentos em Fintechs"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Startups</h5>
+              <p class="card-text">
+                Conheça o investimentos em Startups e como ele pode ser uma renda potencialmente alta
+              </p>
+              <a href="./pages/startups.html" class="btn btn-primary">Confira Agora!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <img
+        src="img/banner.jpg"
+        class="img-fluid img-centered rounded"
+        alt="header da seção 'Tipos de investimentos'"
+        style="max-width: 100%"
+      />
+
+      <section class="pequenotext content-margin my-5">
+        <p class="mt-3">
+          O estudo da economia e das finanças é fundamental em um mundo cada vez
+          mais complexo e interconectado. Compreender conceitos financeiros
+          capacita os indivíduos a tomarem decisões informadas sobre
+          investimentos, consumo e poupança.
+        </p>
+        <p>
+          Aprender sobre economia ajuda a entender o funcionamento dos mercados,
+          os fatores que influenciam a oferta e a demanda, e como as políticas
+          econômicas podem afetar o dia a dia. Esse conhecimento é crucial para
+          planejar o futuro financeiro e garantir segurança econômica.
+        </p>
+        <img
+          src="img/banner2.jpeg"
+          class="img-fluid img-centered rounded"
+          alt="header da seção 'Tipos de investimentos'"
+        />
+        <p>
+          Além disso, é importante estar atualizado sobre as tendências
+          econômicas e financeiras. O mundo está em constante mudança, e a
+          capacidade de adaptação é crucial para o sucesso financeiro.
+        </p>
+        <p>
+          No contexto dos investimentos, a diversificação de ativos, o controle
+          de riscos e a análise de mercado são fundamentais para alcançar bons
+          resultados. Investir é, acima de tudo, uma prática que exige
+          conhecimento, disciplina e visão de longo prazo.
+        </p>
+
+        <p>
+          Um aspecto crucial ao considerar qualquer tipo de investimento é
+          entender o seu perfil de risco. Investidores conservadores, por
+          exemplo, preferem opções mais seguras, como a renda fixa, onde os
+          retornos são mais previsíveis, embora menores. Já os investidores
+          arrojados buscam maiores retornos, aceitando mais risco em opções como
+          ações ou criptomoedas. Entender seu perfil é o primeiro passo para
+          tomar decisões de investimento alinhadas com seus objetivos
+          financeiros.
+        </p>
+
+        <p>
+          A diversificação é outra estratégia fundamental quando se trata de
+          investimentos. Ela consiste em distribuir os investimentos entre
+          diferentes ativos, setores ou regiões, de forma a reduzir os riscos.
+          Ao não concentrar todo o capital em um único investimento, o
+          investidor pode proteger-se contra perdas em um determinado ativo,
+          garantindo maior estabilidade para sua carteira. A diversificação
+          também permite tirar proveito de diferentes oportunidades de
+          crescimento.
+        </p>
+
+        <p>
+          Além disso, é importante acompanhar o mercado e ajustar a carteira de
+          investimentos conforme as mudanças econômicas e os objetivos do
+          investidor. Os mercados financeiros são voláteis e influenciados por
+          diversos fatores, como mudanças políticas, variações nas taxas de
+          juros, ou até mesmo crises globais. Manter-se informado e realizar
+          ajustes na carteira conforme necessário pode ser a chave para garantir
+          que o investimento continue alinhado com os objetivos de longo prazo.
+        </p>
+      </section>
+    </section>
+    <footer class="text-center">
+      <div class="footer-body row">
+        <div class="footer-content col-lg-4 col-12">
+          <h5>Equipe</h5>
+          <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Como funciona</a></li>
+            <li><a href="#">Equipe</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content col-lg-4 col-12">
+          <h5>Contato</h5>
+          <p>Telefone: +55 (12) 98765-4321</p>
+          <p>E-mail: investcap@gmail.com</p>
+        </div>
+
+        <div class="footer-content col-lg-4 col-12">
+          <h5>Conteúdo</h5>
+          <ul>
+            <li><a href="../pages/bitcoin.html">Bitcoin</a></li>
+            <li><a href="../pages/investimentos.html">Investimentos</a></li>
+            <li><a href="../pages/juros.html">Juros</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
